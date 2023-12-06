@@ -1,0 +1,131 @@
+header{
+    background-image: url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+}
+
+header img {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header h2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.cuerpo {
+    background-color: black;
+    color: white;
+}
+
+.navegacion{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacion a{
+    margin: 10px;
+    background-color: #ED1919;
+    display: flex;
+    border-radius: 10%;
+}
+
+
+.navegacion h3{
+    margin: 10px;
+    color: white;
+}
+
+
+.contactar {
+    position: relative;
+    color: black;
+    height: 400px;
+    text-align: center;
+}
+
+.contactar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/fotos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    z-index: -1; 
+}
+
+.contactar h1{
+    padding-top: 60px;
+}
+
+.contactos{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.c1{
+    margin: 20px;
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.c2{
+    margin: 20px;
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.c3{
+    margin: 20px;
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.c4{
+    margin: 20px;
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 220px;
+    margin-top: 50px;
+}
+
+footer{
+    background-image: url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-top: 10px;
+}
+
+footer h2{
+    padding: 40px;
+    text-align: center;
+    color: white;
+}

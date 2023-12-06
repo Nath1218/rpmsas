@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    background-image: url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+}
+
+header img {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header h2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.fila1 img{
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: 10px;
+}
+
+.fila2 img{
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: 10px;
+}
+
+.productos a{
+    margin: 10px;
+}
+
+.cuerpo {
+    background-color: black;
+    color: white;
+}
+
+.navegacion{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacion a{
+    margin: 10px;
+    background-color: #ED1919;
+    display: flex;
+    border-radius: 10%;
+}
+
+
+.navegacion h3{
+    margin: 10px;
+    color: white;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.productos h5{
+    margin: 10px;
+}
+
+
+.producto{
+    margin: auto;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 20px 20px 0px 0px;
+    align-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.fila1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fila2{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-image: url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 10px;
+}

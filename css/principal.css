@@ -1,0 +1,106 @@
+header {
+    position: relative;
+    background-image:url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+header img {
+    margin: 10px;
+}
+
+header h2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+.cuerpo {
+    background-color: black;
+    color: white;
+}
+
+.navegacion{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacion a{
+    margin: 10px;
+    background-color: #ED1919;
+    display: flex;
+    border-radius: 10%;
+}
+
+
+.navegacion h3{
+    margin: 10px;
+    color: white;
+}
+
+.descripcion {
+    position: relative;
+    color: black;
+    height: 600px;
+}
+
+.descripcion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/fotos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    z-index: -1; 
+}
+
+
+.descripcion h1{
+    padding-top: 100px;
+    padding-left: 30px;
+    opacity: 100%;
+}
+
+.descripcion h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+}
+.ubicacion{
+    color: black;
+    text-align: end;
+    height: 200px;
+    padding-right: 50px;
+}
+
+
+.ubicacion h1{
+    padding-top: 60px;
+}
+
+.ubicacion h3{
+    color: black;
+}
+
+footer{
+    background-image: url(/fotos/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.productos a{
+    margin: 10px;
+}
